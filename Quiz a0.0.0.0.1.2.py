@@ -9,37 +9,34 @@ def ueberpruefen(antwort1,antwort2,benutzerantwort):
     else:
         punktzahl(1)
         print("Das war die richtige Antwort")
-a=input("Password: ")
-if a!="Mayday" and a != "mayday":
-    a=input("Password: ")
-loesung1=input("""Bei einer Airline explpdierte das Triebwerk eines Airbus A380. Welche Airline war das?
-A = United Airlines
-B = US Airways
-C = Lufthansa
-D = Air Canada
-E = Quantas
-F = Qantas
+loesung1=input("""9/11 was a
+A = terrorist action
+B = fatal accident 
+C = airline
+D = company
+E = island
+F = game
 Deine Antwort: """)
-ueberpruefen("F", "f", loesung1)
-loesung2=input("""Ein Flugzeug setzte mitten über New York zur Notlandung an. Welche Airline und welcher Flug war das?
-A = United Airlines Flug 232
-B = Air Canada Flug 149
-C = US Airways Flug 232
-D = Quantas Flug 32
-E = US Airways Flug 1459
-F = US Airways Flug 1549
+ueberpruefen("A", "a", loesung1)
+loesung2=input("""Who started World War II?
+A = The US
+B = Canada
+C = Russia
+D = Stalingrad
+E = Stalin
+F = Hitler/Germany
 Deine Antwort: """)
 ueberpruefen("F", "f", loesung2)
-loesung3=input("""Aus welcher Baureihe stammt das Flugzeug?
-A = Airbus A320
-B = Boeing 747
-C = Boeing 767
+loesung3=input("""Who is Putin?
+A = President of the US
+B = President of Canada
+C = Dictator of Russia
 Deine Antwort: """)
 ueberpruefen("C", "c", loesung3)
-loesung4=input("""Wie heißt der Pilot?
-A = Alfred Haynes
-B = Alfred Hitchcooc
-C = Chesley Sullenberger
+loesung4=input("""When did the US declare Independence
+A = 1990
+B = 16th century
+C = 1776
 Deine Antwort: """)
 ueberpruefen("C", "c", loesung4)
 print("Du hast", punkte, "Punkte ereicht.")
