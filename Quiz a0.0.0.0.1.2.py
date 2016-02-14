@@ -39,5 +39,5 @@ B = 16th century
 C = 1776
 Your answer: """)
 ueberpruefen("C", "c", loesung4)
-print("Du hast", punkte, "Punkte ereicht.")
+print("You go", punkte, "Points.")
 
