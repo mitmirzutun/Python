@@ -9,35 +9,29 @@ def ueberpruefen(antwort1,antwort2,benutzerantwort):
     else:
         punktzahl(1)
         print("That was the right answer.")
-loesung1=input("""9/11 was a
-A = terrorist action
-B = fatal accident 
-C = airline
-D = company
-E = island
-F = game
+loesung1=input("""Who are the three main characters of Harry Potter?
+A: Ginny Weasley, Ron Weasly and Percy Weasly
+B: Harry Potter, Ron Weasly and Ginny Weasly
+C: Harry Potter, Ron Weasly and Hermine Granger
 Your answer: """)
-ueberpruefen("A", "a", loesung1)
-loesung2=input("""Who started World War II?
-A = The US
-B = Canada
-C = Russia
-D = Stalingrad
-E = Stalin
-F = Hitler/Germany
+ueberpruefen("C", "c", loesung1)
+loesung2=input("""Who is the Headmaster of Hogwarts in the first book?
+A: Severus Snape
+B: Tom Marvolo Riddle
+C: Albus Dumbledore
 Your answer: """)
-ueberpruefen("F", "f", loesung2)
-loesung3=input("""Who is Putin?
-A = President of the US
-B = President of Canada
-C = Dictator of Russia
+ueberpruefen("C", "c", loesung2)
+loesung3=input("""Who is Lord Voldemord?
+A: Draco Malfoy
+b: Harry Potter
+C:  Tom Marvolo Riddle
 Your Answer: """)
 ueberpruefen("C", "c", loesung3)
-loesung4=input("""When did the US declare Independence
-A = 1990
-B = 16th century
-C = 1776
+loesung4=input("""Who killed Dumbledore?
+A = Severus Snape
+B = Draco Malfoy
+C = Ginny Weasly
 Your answer: """)
-ueberpruefen("C", "c", loesung4)
-print("You go", punkte, "Points.")
+ueberpruefen("A", "a", loesung4)
+print("You got", punkte, "Points.")
 
