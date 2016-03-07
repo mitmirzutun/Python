@@ -1,6 +1,6 @@
-class Quiz:
+lass Quiz:
     def __init__(self):
-        self.punkte = 0
+        self.points = 0
         self.questions = []
         self.answers = []
         self.correct_answers = []
@@ -21,7 +21,7 @@ class Quiz:
                 self.points -= 1
             index += 1
     def get_points(self):
-        return(self.points)
+        return("You've got "+str(self.points)+" points")
 if __name__ == "__main__":
     quiz1 = Quiz()
     quiz1.new_question("Who are the three main characters of Harry Potter?",
@@ -30,8 +30,8 @@ if __name__ == "__main__":
     "C: Harry Potter, Ron Weasly and Hermine Granger"],
     "C")
     quiz1.new_question("Who is the Headmaster of Hogwarts in the first book?",
-    ["A: Severus Snape"
-    "B: Tom Marvolo Riddle"
+    ["A: Severus Snape",
+    "B: Tom Marvolo Riddle",
     "C: Albus Dumbledore"],
     "C")
     quiz1.new_question("Who is Lord Voldemord?",
@@ -40,7 +40,9 @@ if __name__ == "__main__":
     "C: Tom Marvolo Riddle"],
     "C")
     quiz1.new_question("Who killed Dumbledore?",
-    [" A = Severus Snape",
+    ["A = Severus Snape",
     "B = Draco Malfoy",
     "C = Ginny Weasly"],
     "B")
+    quiz1.ask()
+    print(quiz1.get_points())
