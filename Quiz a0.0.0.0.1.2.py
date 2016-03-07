@@ -32,6 +32,6 @@ A = Severus Snape
 B = Draco Malfoy
 C = Ginny Weasly
 Your answer: """)
-ueberpruefen("A", "a", loesung4)
+ueberpruefen("C", "c", loesung4)
 print("You got", punkte, "Points.")
 
