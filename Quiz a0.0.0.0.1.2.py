@@ -32,6 +32,11 @@ A = Severus Snape
 B = Draco Malfoy
 C = Ginny Weasly
 Your answer: """)
-ueberpruefen("C", "c", loesung4)
+ueberpruefen("B", "b", loesung4)
+loesung5=("""What was the reason?
+A = The Person hated him.
+B = Dumbledore didn't want to live anymore
+C = It was a accident.""")
+ueberpruefen("B", "b", loesung4)
 print("You got", punkte, "Points.")
 
