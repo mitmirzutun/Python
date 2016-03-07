@@ -23,8 +23,8 @@ Your answer: """)
 ueberpruefen("C", "c", loesung2)
 loesung3=input("""Who is Lord Voldemord?
 A: Draco Malfoy
-b: Harry Potter
-C:  Tom Marvolo Riddle
+B: Harry Potter
+C: Tom Marvolo Riddle
 Your Answer: """)
 ueberpruefen("C", "c", loesung3)
 loesung4=input("""Who killed Dumbledore?
