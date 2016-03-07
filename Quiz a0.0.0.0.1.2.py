@@ -1,4 +1,4 @@
-lass Quiz:
+class Quiz:
     def __init__(self):
         self.points = 0
         self.questions = []
