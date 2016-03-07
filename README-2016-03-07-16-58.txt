@@ -1,0 +1,2 @@
+This folder is primary used for python projects created by me.
+Anyone, who likes to edit it, can edit it.
