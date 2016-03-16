@@ -32,7 +32,7 @@ A = Severus Snape
 B = Draco Malfoy
 C = Ginny Weasly
 Your answer: """)
-ueberpruefen("B", "b", loesung4)
+ueberpruefen("A", "a", loesung4)
 loesung5=("""What was the reason?
 A = The Person hated him.
 B = Dumbledore didn't want to live anymore
