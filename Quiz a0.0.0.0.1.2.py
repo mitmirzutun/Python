@@ -40,9 +40,9 @@ if __name__ == "__main__":
     "C: Tom Marvolo Riddle"],
     "C")
     quiz1.new_question("Who killed Dumbledore?",
-    ["A = Severus Snape",
-    "B = Draco Malfoy",
-    "C = Ginny Weasly"],
-    "B")
+    ["A: Severus Snape",
+    "B: Draco Malfoy",
+    "C: Ginny Weasly"],
+    "A")
     quiz1.ask()
     print(quiz1.get_points())
