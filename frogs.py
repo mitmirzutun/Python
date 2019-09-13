@@ -15,7 +15,7 @@ def jump_probabilities(hops):
             probabilities[i+1]+=curr_prob
     return probabilities
 
-def all_probable_jumps(hops):
+def all_possible_jumps(hops):
     if hops == 1: return {1:[[1]]}
     liste1 = []
     liste2 = []
@@ -40,7 +40,6 @@ def all_probable_jumps(hops):
     return d
 
 def e_wert(hops):
-    l1 = all_probable_jumps(hops)
     l2 = jump_probabilities(hops)
     s = 0
     for i in range(hops):
